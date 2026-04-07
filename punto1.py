@@ -4,18 +4,19 @@ class Punto:
         self.y = y
 
     def eje_x(self):
-        return self.eje_x
+        return self.x
     
     def eje_y(self):
-        return self.eje_y
+        return self.y
     
     def mostrar_ejes(self):
-        print("Eje X:", self.eje_x, "Eje Y:", self.eje_y)
+        print("Eje X:", self.x, "Eje Y:", self.y)
     
     def opuesto(self):
-        opx = self.eje_x * -1
-        opy = self.eje_y * -1
+        opx = self.x * -1
+        opy = self.y * -1
         print("Eje -X=", opx, "Eje -Y=", opy)
     
 class Linea: 
-    def __init__(self, )
+    def __init__(self, p_a, p_b):
+        super().__init__()
