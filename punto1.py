@@ -19,4 +19,23 @@ class Punto:
     
 class Linea: 
     def __init__(self, p_a, p_b):
-        super().__init__()
+        self.p_a = p_a
+        self.p_b = p_b
+
+    def move_der(self, distance):
+        self.p_a.x += distance
+        self.p_b.x += distance
+    
+    def move_izq(self, distance):
+        self.p_a.x -= distance
+    
+    def move_arriba(self, distance):
+        self.punto_a.y += distance
+        self.punto_b.y += distance
+    
+    def move_abajo(self, distance):
+        self.punto_a.y -= distance
+        self.punto_b.y -= distance
+    
+    
+         
