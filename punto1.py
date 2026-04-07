@@ -17,5 +17,8 @@ class Punto:
         opy = self.eje_y * -1
         print("Eje -X=", opx, "Eje -Y=", opy)
     
-class Linea: 
-    def __init__(self, )
+    class Linea: 
+        def __init__(self, ):
+            self.punto1 = Punto ("x",1, "y",2)
+print (Punto(1,2).mostrar_ejes())
+
