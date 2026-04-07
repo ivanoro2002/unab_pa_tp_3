@@ -9,4 +9,13 @@ class Punto:
     def eje_y(self):
         return self.eje_y
     
+    def mostrar_ejes(self):
+        print("Eje X:", self.eje_x, "Eje Y:", self.eje_y)
     
+    def opuesto(self):
+        opx = self.eje_x * -1
+        opy = self.eje_y * -1
+        print("Eje -X=", opx, "Eje -Y=", opy)
+    
+class Linea: 
+    def __init__(self, )
